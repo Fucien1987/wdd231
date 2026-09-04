@@ -3,11 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="WDD 231 course home page for Kerlando Fucien.">
+    <meta name="author" content="Kerlando Fucien">
+
+    <title>WDD 231 - Course Home Page - Kerlando Fucien</title>
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 <body>
-    <h1>WDD 231 - Kerlando Fucien</h1>
-    <p>Github Page is working!</p>
-    
+    <header>
+        <img src="images/logo.jpg" alt="Site logo">
+        <span>Kerlando Fucien</span>
+        <button id="menu" aria-label="Open navigation menu"></button>
+    </header>
+
+    <nav id="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Chamber Project</a>
+        <a href="#">Final Project</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About Me</h2>
+            <p>My name is Kerlando Fucien. I am a student at BYU-Idaho studying Software Development.
+                I am working toward my first certificate in web and computer programming.
+                becoming a Software Developer is one of my biggest goal this year,and
+                that is why I spend a lot of time working hard to succeed in my education.
+                I enjoy studying at BYU-Idaho and I value the opportunity to continue learning and
+                improving my skills.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/student-photo.jpg" alt="Kerlando Fucien">
+        </section>
+
+        <section>
+            <h2>Web Certificate Courses</h2>
+
+            <div id="course-filters">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+
+            <div id="course-list"></div>
+            <p>The total credits for courses listed above is <span id="total-credits"></span></p>
+        </section>
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="images/linkedIn.webp" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/" target="_blank">
+                <img src="images/github.webp" alt="GitHub">
+            </a>
+            <a href="https://x.com/" target="_blank">
+                <img src="images/X.webp" alt="X">
+            </a>
+        </div>
+        <p>
+            &copy; <span id="currentyear"></span>
+            • Kerlando Fucien • Massachusetts, USA
+        </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
