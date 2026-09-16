@@ -66,8 +66,8 @@ h1 {
 #members.list {
     display: flex;
     flex-direction: column;
-
-#member.list a {
+}
+#members.list a {
     overflow-wrap: anywhere;
 }
 footer {
@@ -77,7 +77,7 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
-#member.list {
+#members.list {
     display: block;
 }
 #members.list section {
