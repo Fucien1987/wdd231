@@ -1,0 +1,63 @@
+{
+    "members": [
+        {
+            "name": "Family Z Services LLC",
+            "address": "Stoughton, MA",
+            "phone": "339-206-3427",
+            "website": "https://familyzservices.com",
+            "image": "family-z.png",
+            "membership": 3 
+        },
+        {
+            
+            "name": "Boston Web Solution",
+            "address": "Boston, MA",
+            "phone": "617-555-1020",
+            "website": "https://example.com",
+            "image": "boston-web.webp",
+            "membership": 2 
+        },
+        {
+            
+            "name": "Brocton Auto Center",
+            "address": "Brocton, MA",
+            "phone": "508-555-2030",
+            "website": "https://broctonautocenter.com",
+            "image": "brocton-web.jpg",
+            "membership": 1
+        },
+        {
+            
+            "name": "Stoughton Tech Services",
+            "address": "Stoughton, MA",
+            "phone": "781-555-3040",
+            "website": "https://stoughtontechservices.com",
+            "image": "stoughton-tech.jpg",
+            "membership": 2
+        },
+        {
+            "name": "Randolph Accounting Group",
+            "address": "Randolph, MA",
+            "phone": "781-555-4050",
+            "website": "https://randolphaccountinggroup.com",
+            "image": "randolph-accounting.webp",
+            "membership": 3
+        },
+        {
+            "name": "South Shore Transportation",
+            "address": "Weymounth, MA",
+            "phone": "781-555-5060",
+            "website": "https://southshoretransportation.com",
+            "image": "south-shore.webp",
+            "membership": 2
+        },
+        {
+            "name": "Bridgewater Home Services",
+            "address": "Bridgewater, MA",
+            "phone": "781-555-6070",
+            "website": "https://bridgewaterhomeservices.com",
+            "image": "bridgewater-home.jpg",
+            "membership": 1
+        }
+    ]
+}
