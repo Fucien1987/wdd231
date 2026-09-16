@@ -66,13 +66,7 @@ h1 {
 #members.list {
     display: flex;
     flex-direction: column;
-}
-#members.list section {
-    padding: 1rem;
-}
-#members.list section:nth-child(even) {
-    background-color: #e8f4f8;
-}
+
 #member.list a {
     overflow-wrap: anywhere;
 }
