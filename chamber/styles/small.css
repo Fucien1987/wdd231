@@ -66,6 +66,7 @@ h1 {
 #members.list {
     display: flex;
     flex-direction: column;
+    display: block;
 }
 #members.list a {
     overflow-wrap: anywhere;
@@ -77,9 +78,7 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
-#members.list {
-    display: block;
-}
+
 #members.list section {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 2fr;
