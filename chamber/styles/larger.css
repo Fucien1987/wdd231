@@ -5,9 +5,19 @@
         justify-content: space-between;
         padding: 1rem 2rem;
     }
+    #navigation {
+        display: flex;
+    }
     nav {
         display: flex;
         gap: 1.5rem;
+    }
+    #menu {
+        display: none;
+    }
+    nav a.active {
+        font-weight: bold;
+        text-decoration: underline;
     }
     main {
         max-width: 1200px;

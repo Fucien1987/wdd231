@@ -22,6 +22,20 @@ header {
     height: 60px;
     object-fit: contain;
 }
+#menu {
+    display: block;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#navigation {
+    display: none;
+}
+#navigation.open {
+    display: flex;
+}
 nav{
     display: flex;
     flex-direction: column;
