@@ -24,6 +24,21 @@
         margin: 0 auto;
         padding: 1rem;
     }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .hero a {
+        display: block;
+        margin-top: 10px;
+    }
     #members.grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -33,6 +48,28 @@
         text-align: center;
     }
     #members.grid img {
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .home-info {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+    .spotlights {
+        grid-column: 1 / -1;
+    }
+    #spotlights-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    #spotlights-cards section {
+        text-align: center;
+        padding: 1rem;
+    }
+    #spotlights-cards img {
         width: 150px;
         height: 100px;
         object-fit: contain;

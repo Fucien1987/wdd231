@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Home</title>
+    <link rel="icon" href="images/chamber-logo.png">
+    <meta name="description"
+          content="Explore our Chamber of Commerce business Directory and connect with local business and services in Massachusetts.">
+    <meta name="author" content="Kerlando Fucien">
+
+     <script src="scripts/home.js" defer></script>
+    
+    <meta property="og:title" content="Chamber of Commerce Home">
+    <meta property="og:description" content="Explore our Chamber of Commerce business Directory and connect with local business and services in Massachusetts.">
+    <meta property="og:image" content="https://fucien1987.github.io/wdd231/chamber/images/chamber-logo.png">
+    <meta property="og:url" content="https://fucien1987.github.io/wdd231/chamber/directory.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <div class="site-brand">
+            <img src="images/chamber-logo.png" alt="Chamber of Commerce logo">
+            <span>Chamber of Commerce</span>
+        </div>
+        <button id="menu" aria-label="Open navigation menu">≡</button>
+
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="#">Join</a>
+            <a href="#">Discover</a> 
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero-images.jpg" alt="Local Chamber of Commerce community">
+            <a href="join.html" class="cta">Join the Chamber</a>
+        </section>
+
+        <h1>Chamber of Commerce</h1>
+
+        <section class="home-info">
+            <div class="events">
+                <h2>Current events</h2>
+                <p>Business Networking Meeting</p>
+                <p>Small Business Workshop</p>
+                <p>community Business Expo</p>
+            </div>
+            <div class="weather">
+                <h2>weather</h2>
+                <p>Temperature: <span id="current-temp"></span></p>
+                <p id="weather-desc"></p>
+
+                <h3>3-Day forecast</h3>
+                <div id="forecast"></div>
+            </div>
+        </section>
+
+        <section class="spotlights">
+            <h2>Company spotlights</h2>
+            <div id="spotlights-cards"></div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <strong>Chamber of Commerce</strong>
+            <p>Massachusetts, USA</p>
+        </div>
+
+        <div>
+            <p>WDD 231 Class Project</p>
+            <p>Kerlando Fucien</p>
+            <p>&copy; <span id="currentyear"></span> Chamber of Commerce</p>
+            <p>lastModified: <span id="lastModified"></span></p>
+        </div>
+    </footer>   
+</body>
+</html>
