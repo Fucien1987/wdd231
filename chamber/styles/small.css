@@ -130,7 +130,7 @@ footer {
 #spotlights-cards .membership {
     display: block;
     width: fit-content;
-    margin: 12px auto 0;
+    margin: 12px auto ;
     padding: 12px 20px;
     background-color: #005f8f;
     color: white;
@@ -151,4 +151,7 @@ footer {
     width: 150px;
     height: 100px;
     object-fit: contain;
+}
+.spotlights h2 {
+    text-align: center;
 }
