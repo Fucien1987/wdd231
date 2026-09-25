@@ -51,6 +51,27 @@ main {
     margin: 0 auto;
     padding: 1rem;
 }
+.hero {
+    position: relative;
+    width: 100%;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero .cta {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    background-color: #005f8f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
 h1 {
     text-align: center;
 }
@@ -105,4 +126,29 @@ footer {
 }
 #members.list section:nth-child(even) {
     background-color: #e8f4f8;
+}
+#spotlights-cards .membership {
+    display: block;
+    width: fit-content;
+    margin: 12px auto 0;
+    padding: 12px 20px;
+    background-color: #005f8f;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#spotlights-cards a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#spotlights-cards section {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+#spotlights-cards img{
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
 }

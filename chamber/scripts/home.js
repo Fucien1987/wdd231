@@ -90,6 +90,9 @@ async function getSpotLights() {
                 <p>${member.address}</p>
                 <p>${member.phone}</p>
                 <a href="${member.website}" target="_blank">Website</a>
+                <p class="membership">
+                    ${member.membership === 3 ? "Gold Member" : "Silver Member"}
+                </p>
             `;
 
             spotlightCards.appendChild(card);
