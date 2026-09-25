@@ -3,7 +3,6 @@
 }
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     color: #222;
     font-family: "Roboto", sans-serif;
 }
@@ -99,7 +98,6 @@ h1 {
 }
 /* LIST VIEW */
 #members.list {
-    display: flex;
     flex-direction: column;
     display: block;
 }
@@ -113,7 +111,6 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
-
 #members.list section {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 2fr;
