@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Chamber | Chamber of Commerce</title>
+    <link rel="icon" href="images/chamber-logo.png">
+    <meta name="description"
+          content="Explore our Chamber of Commerce business Directory and connect with local business and services in Massachusetts.">
+    <meta name="author" content="Kerlando Fucien">
+
+     <script src="scripts/home.js" defer></script>
+    
+    <meta property="og:title" content="Chamber of Commerce Home">
+    <meta property="og:description" content="Explore our Chamber of Commerce business Directory and connect with local business and services in Massachusetts.">
+    <meta property="og:image" content="https://fucien1987.github.io/wdd231/chamber/images/chamber-logo.png">
+    <meta property="og:url" content="https://fucien1987.github.io/wdd231/chamber/directory.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+    <body>
+    <header>
+        <div class="site-brand">
+            <img src="images/chamber-logo.png" alt="Chamber of Commerce logo">
+            <span>Chamber of Commerce</span>
+        </div>
+        <button id="menu" aria-label="Open navigation menu">≡</button>
+
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+            <a href="join.html" class="active">Join</a>
+            <a href="#">Discover</a> 
+        </nav>
+    </header>
+
+    <main>
+        <h1>Join the Chamber</h1>
+        <div class="join-container">
+            <form method="get" action="thankyou.html">
+                <label>
+                    First Name
+                    <input type="text" name="firstName" title="First Name"
+                           autocomplete="given-name" required>
+                </label>
+                <label>
+                    Last name
+                    <input type="text" name="lastName" title="Last Name"
+                           autocomplete="family-name" required>
+                </label>
+                <label>
+                    Organizational Title
+                    <input type="text" name="orgTitle" title="Organizational Title"
+                           autocomplete="organization-title"
+                           pattern="[A-Za-z\s\-]{7,}">
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="email" title="Email Address"
+                           autocomplete="email"
+                           placeholder="example@email.com" required>
+                </label>
+                <label>
+                    Mobile Phone
+                    <input type="tel" name="phone" title="Mobile Phone"
+                           autocomplete="tel" required>
+                </label>
+                <label>
+                    Business / organization Name 
+                    <input type="text" name="organization" title="Business or organization Name"
+                           autocomplete="organization" required>
+                </label>
+                <label>
+                    Membership Level
+                    <select name="Membership" title="Membership Level" required>
+                        <option value="">Select a Membership Level</option>
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label>
+                    Business / Organization Description
+                    <textarea name="description"
+                              title="Business or Organization Description"></textarea>
+                </label>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" value="Submit Application">
+            </form>
+
+            <section class="Membership-cards">
+                <h2>Membership Levels</h2>
+
+                <div class="membership-card">
+                    <h3>NP Membership</h3>
+                    <button type="button" id="np-button">Learn More</button>
+                </div>
+
+                 <div class="membership-card">
+                    <h3>Bronze Membership</h3>
+                    <button type="button" id="bronze-button">Learn More</button>
+                </div>
+
+                 <div class="membership-card">
+                    <h3>Silver Membership</h3>
+                    <button type="button" id="silver-button">Learn More</button>
+                </div>
+
+                 <div class="membership-card">
+                    <h3>Gold Membership</h3>
+                    <button type="button" id="gold-button">Learn More</button>
+                </div>
+            </section>
+            <dialog id="np-dialog">
+                <h2>NP Membership</h2>
+                <p>For nonprofit organizations. This membership has no fee.</p>
+                <button type="button" class="close-dialog">Close</button>
+            </dialog>
+
+            <dialog id="bronze-dialog">
+                <h2>Bronze Membership</h2>
+                <p>Basic membership benefits for businesses</p>
+                <button type="button" id="close-bronze">Close</button>
+            </dialog>
+
+            <dialog id="silver-dialog">
+                <h2>Silver Membership</h2>
+                <p>Silver membership includes additional business benefits and advertising opportunities.</p>
+                <button type="button" id="close-silver">Close</button>
+            </dialog>
+
+            <dialog id="gold-dialog">
+                <h2>Gold Membership</h2>
+                <p>Gold membership includes premium business benefits, advertising, and special even opportunities.</p>
+                <button type="button" id="close-gold">Close</button>
+            </dialog>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <strong>Chamber of Commerce</strong>
+            <p>Massachusetts, USA</p>
+        </div>
+
+        <div>
+            <p>WDD 231 Class Project</p>
+            <p>Kerlando Fucien</p>
+            <p>&copy; <span id="currentyear"></span> Chamber of Commerce</p>
+            <p>lastModified: <span id="lastModified"></span></p>
+        </div>
+    </footer>   
+    <script src="scripts/join.js"></script>
+</body>
+</html>

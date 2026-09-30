@@ -81,4 +81,17 @@
         height: 100px;
         object-fit: contain;
     }
+    /* Join Page - Large Screen */
+    .join-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        align-items: start;
+    }
+    .membership-cards {
+        margin-top: 0;
+    }
+    .membership-card {
+        margin-bottom: 1rem;
+    }
 }
