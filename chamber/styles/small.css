@@ -201,7 +201,7 @@ footer {
     cursor: pointer;
 }
 @keyframes fadeIn {
-    form {
+    from {
         opacity: 0;
         transform: translateY(20px)
     }
