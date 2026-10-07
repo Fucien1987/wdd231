@@ -24,8 +24,11 @@ function displayPlaces() {
         const description = document.createElement("p");
         description.textContent = place.description;
 
-        const button = document.createElement("button");
+        const button = document.createElement("a");
         button.textContent = "Learn More";
+        button.href = place.url;
+        button.target = "_blank";
+        button.rel = "noopener";
 
         card.appendChild(title);
         card.appendChild(figure);
