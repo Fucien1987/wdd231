@@ -126,7 +126,7 @@
             "image description"
             "image address"
             "image button";
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 1fr;
         gap: 0.75rem 1ref;
         align-items: center;
         padding: 1rem;
@@ -144,7 +144,7 @@
         grid-area: description;
     }
     #discover-cards button {
-        padding: 0,6rem 1rem;
+        padding: 0.6rem 1rem;
         margin-top: 0.5rem;
         cursor: pointer;
     }
