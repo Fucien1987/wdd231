@@ -224,3 +224,44 @@ dialog button {
     cursor: pointer;
     margin-top: 1rem;
 }
+/* Discover PAGE */
+.discover-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.discover-main h1 {
+    text-align: center;
+}
+#visit-message {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f4f4f4;
+    border-left: 5px solid #0b4f6c;
+}
+.discover-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.place-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 6px #aaa;
+}
+.place-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+.place-card button {
+    padding: 0.6rem 1rem;
+    background-color: #0b4f6c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
