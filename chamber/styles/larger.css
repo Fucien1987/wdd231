@@ -127,7 +127,7 @@
             "image address"
             "image button";
         grid-template-columns: 1fr;
-        gap: 0.75rem 1ref;
+        gap: 0.75rem 1fr;
         align-items: center;
         padding: 1rem;
     }
