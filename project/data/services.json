@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Monthly Bookkeeping",
+        "category": "Bookkeeping",
+        "description": "Keep your financial records organized and accurate."
+    },
+    {
+        "id": 2,
+        "name": "Bank Reconciliation",
+        "category": "Bookkeeping",
+        "description": "Compare bank transactions with your financial records."
+    },
+    {
+        "id": 3,
+        "name": "Catch-Up Bookkeeping",
+        "category": "Bookkeeping",
+        "description": "Bring past financial records up to date."
+    },
+    {
+        "id": 4,
+        "name": "Profit and Loss Reports",
+        "category": "Bookkeeping",
+        "description": "Prepare clear profit and loss reports for your business."
+    },
+    {
+        "id": 5,
+        "name": "QuickBooks Support",
+        "category": "Bookkeeping",
+        "description": "Get assistance organizing and managing your quickBooks account."
+    },
+    {
+        "id": 6,
+        "name": "Invoce Setup",
+        "category": "Business Support",
+        "description": "Create professional invoices for your customers."
+    },
+    {
+        "id": 7,
+        "name": "Business Registration Support",
+        "category": "Business Support",
+        "description": "Get assistance preparing documents for business registration."
+    },
+    {
+        "id": 8,
+        "name": "EIN Application Assistance",
+        "category": "Business Support",
+        "description": "Get help preparing your EIN application information."
+    },
+    {
+        "id": 9,
+        "name": "Operation Agremant Support",
+        "category": "Business Support",
+        "description": "Get assistance preparing an operating agreement for your business."
+    },
+    {
+        "id": 10,
+        "name": "Business Bank Account Preparation",
+        "category": "Business Support",
+        "description": "Organize the information needed to open a business bank account."
+    },
+    {
+        "id": 11,
+        "name": "Document Preparation",
+        "category": "Document Services",
+        "description": "Get help organizing and preparing common business documents."
+    },
+    {
+         "id": 12,
+        "name": "Application assistance",
+        "category": "Document Services",
+        "description": "Receive assistance completing applications accurately."
+    },
+    {
+         "id": 13,
+        "name": "Business Organization",
+        "category": "Business Support",
+        "description": "Organize important business information and records."
+    },
+    {
+         "id": 14,
+        "name": "Financial Record Organization",
+        "category": "Bookkeeping",
+        "description": "Organize receipts, transaction, and financial documents."
+    },
+    {
+         "id": 15,
+        "name": "Small Business Support",
+        "category": "Business Support",
+        "description": "Receive practical administrative support for your small business."
+    }
+
+]

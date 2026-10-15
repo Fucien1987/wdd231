@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+}
+header {
+    background-color: #16324f;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+header h1 {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+header p {
+    margin: 0.5rem 0 0;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+section{
+    background-color: #d9eef7;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+h2,
+h3 {
+    font-family: "Roboto", sans-serif;
+    color: #16324f;
+}
+h2 {
+    border-bottom: 2px solid #16324f;
+    padding-bottom: 0.5rem;
+}
+li {
+    margin-bottom: 0.5rem;
+}
+footer {
+    background-color: #16324f;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+}
+footer p {
+    margin: 0;
+}
+
+/* Navigation and Brand */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.logo {
+    background-color: #ffffff;
+    color: #16324f;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+#menu-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#navigation {
+    display: none;
+    width: 100%;
+}#navigation.open {
+    display: flex;
+}
+#navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.75rem;
+}
+#navigation a:hover,
+#navigation a.active {
+    background-color: #d9eef7;
+    color: #16324f;
+}
+.contact-section {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #e8f4f8;
+    border-radius: 8px;
+}
+.contact-section form {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.contact-section label {
+    display: grid;
+    gap: 0.4rem;
+    font-weight: 600;
+}
+.contact-section input,
+.contact-section select,
+.contact-section textarea {
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    font: inherit;
+}
+.contact-section textarea {
+    resize: vertical;
+}
+.contact-section button {
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+    font: inherit;
+}
