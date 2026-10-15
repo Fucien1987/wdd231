@@ -4,5 +4,11 @@
     }
     #navigation {
         display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    mai {
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }
